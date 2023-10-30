@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <header>
+
+            <h1>Bienvenido/a a ArgenTravel</h1>
+
+            <img id="logoPag" src="./imgs/logos/arg-logo.png" alt="">
+
+        </header>
+
+        <main>
+            <section>
+                <h2>Presione el botón de cotización de viaje para empezar</h2>
+                <button id="boton-inicio-cotizacion">Cotizar viaje</button>
+
+                 <br>
+                <div class="tittle-destinos">
+                    <h2>Elige tu lugar de salida</h2>
+                </div>
+                <br>
+                <div class="salidas">
+                    <h3 class="estiloH3">Tandil <input type="checkbox" name="destino" id="salida1"></h3>
+                    <h3 class="estiloH3">Miramar <input type="checkbox" name="destino" id="salida2"></h3>
+                    <h3 class="estiloH3">Necochea <input type="checkbox" name="destino" id="salida3"></h3>
+                </div>
+
+                <div class="tittle-destinos">
+                    <h2>Elige tu destino</h2>
+                </div>
+                <br>
+                <div class="destinos">
+                    <h3 class="estiloH3">Cordoba <input type="checkbox" name="destino" id="destino1"></h3>
+                    <h3 class="estiloH3">Puerto Iguazú <input type="checkbox" name="destino" id="destino2"></h3>
+                    <h3 class="estiloH3">El calafate <input type="checkbox" name="destino" id="destino2"></h3>
+                </div>
+
+                <br>               
+
+                <!-- <div class="tittle-destinos">
+                    <h2>Elige tu estadia</h2>
+                </div>
+                <br>
+                <div class="salidas">
+                    <h3 class="estiloH3">3 Dias y 2 noches <input type="checkbox" name="destino" id="salida1"></h3>
+                    <h3 class="estiloH3">5 Dias y 4 noches <input type="checkbox" name="destino" id="salida2"></h3>
+                    <h3 class="estiloH3">7 Dias y 6 noches <input type="checkbox" name="destino" id="salida3"></h3>
+                </div> -->
+
+                
+                <br>
+                <div class="div-presupuesto">
+                    <h3> Este es el valor mas conveniente para 
+                        tu viaje gracias por elegirnos</h3>
+                </div>
+                <input type="text" id="presupuesto" readonly="readonly">
+
+
+            </section>
+        </main>
+
+        <footer>
+
+            <div class="redes">
+                <img class="redes-logo" src="./imgs/logos/facebook.png" alt="">
+                <img class="redes-logo" src="./imgs/logos/instagram.png" alt="">
+                <img class="redes-logo" src="./imgs/logos/tiktok.png" alt="">
+                <img class="redes-logo" src="./imgs/logos/twitter.png" alt="">
+                <img class="redes-logo" src="./imgs/logos/whatsapp.png" alt="">
+                <img class="redes-logo" src="./imgs/logos/youtube.png" alt="">
+            </div>
+
+
+        </footer>
+
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
