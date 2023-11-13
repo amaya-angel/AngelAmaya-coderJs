@@ -1,24 +1,3 @@
-/* PRE-ENTREGA 1
-0. detectarCuandoSeApretaElBoton():
-1. obtenerNombreCiudadOrigen(): nombreCiudadOrigen
-2. validarOrigen(ciudadesDisponiblesOrigen, ciudadOrigen): si es valida o no
-3. obtenerNombreCiudadDestino(): nombreCiudadDestino
-4. validarDestino(ciudadesDisponiblesDestino, ciudadDestino): si es valida o no
-5. calcularPrecioViaje(ciudadOrigen, ciudadDestino): precioViaje
-6. mostrarPrecio(precioViaje):
-*/
-
-/* PRE-ENTREGA 2
-1. estructura html del proyecto 
-2. variables de js necesarias
-3. funciones esenciales del proceso a simular
-4. objetos de js
-5. arrays
-6. metodos de busqueda y filtrado sobre el array
-*/
-
-
-
 
 const ciudadesDisponiblesOrigen = ["tandil", "miramar", "necochea"];
 const ciudadesDisponiblesDestino = ["cordoba", "puerto iguazu", "el calafate"];
